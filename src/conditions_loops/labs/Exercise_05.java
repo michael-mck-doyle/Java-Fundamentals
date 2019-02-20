@@ -38,29 +38,18 @@ public class Exercise_05 {
         // assign input to variable as int
         int numTwo = scannerTwo.nextInt();
 
-        int sumNum = 0;
 
-        int averAge = 0;
+        int sum = 0;
+        double average = ((numOne + numTwo)/ (double)2);
 
+        for ( ; numOne <= numTwo; numOne++) {
 
-
-        for ( ;numOne <= numTwo; ) {
-
-
-            System.out.println("NumOne is " + numOne);
-
-            numOne++;
+            sum = sum + numOne;
 
 
-        }
-        sumNum = sumNum + numOne;
-        averAge = sumNum/(numTwo-numOne);
-        System.out.println("The sum of numbers is " + sumNum);
-        System.out.println("The average is: " + averAge );
+        } System.out.println("The sum of the numbers is " + sum);
+        System.out.println("The average of the numbers is " + average);
     }
-
-
-
 
 }
 

@@ -8,4 +8,18 @@ package conditions_loops.labs;
  */
 
 public class Exercise_09 {
+
+    public static void main(String[] args) {
+
+        int year = 1971;
+        do {
+            System.out.println("The current year is " + year);
+            year ++;
+            if (year == 2020) {
+                break;
+            }
+        } while (year >= 1970 && year<2025);
+
+    }
 }
+

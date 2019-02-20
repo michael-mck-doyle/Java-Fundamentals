@@ -25,7 +25,7 @@ public class Exercise_07 {
         while (vow <= word.length()) {
 
             if (word.charAt(vow) == 'a') {
-                System.out.println("The first vowel is 'a' ");
+               System.out.println("The first vowel is 'a' ");
                 break;
             } else if (word.charAt(vow) == 'e') {
                 System.out.println("The first vowel is 'e' ");
