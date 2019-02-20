@@ -18,7 +18,61 @@ Fundamentals Exercise 1: CLI
          b. Use $ cat print contents of file
          c. Use $ grep to search for a word inside file
 
-Example Output (pwd):
-    1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
-       /Users/cadenmackenzie/Documents/CodingNomads
+
+Output
+1. & 2. /Users/Michael/Documents/CodingNomads3/Terminal_testing
+3.
+drwxr-xr-x  5 Michael  staff  160  7 Feb 19:32 .
+drwxr-xr-x  7 Michael  staff  224  7 Feb 18:49 ..
+-rw-r--r--  1 Michael  staff    0  7 Feb 19:32 Febuary.tx
+-rw-r--r--  1 Michael  staff    0  7 Feb 19:32 January.txt
+-rw-r--r--  1 Michael  staff  134  7 Feb 19:00 March.txt
+5. /Users/Michael/Documents/CodingNomads3/Terminal_testing/Months
+6. /Users/Michael/Documents/CodingNomads3/Terminal_testing/Months
+Michaels-MacBook-Air-2:Months Michael$ ls -al
+total 0
+drwxr-xr-x  3 Michael  staff   96  7 Feb 19:59 .
+drwxr-xr-x  5 Michael  staff  160  7 Feb 19:59 ..
+-rw-r--r--  1 Michael  staff    0  7 Feb 19:32 January.txt
+7. Michaels-MacBook-Air-2:Months Michael$ mv /Users/Michael/Documents/CodingNomads3/Terminal_testing/Febuary.tx /Users/Michael/Documents/CodingNomads3/Terminal_testing/Months
+Michaels-MacBook-Air-2:Months Michael$ ls -al
+total 0
+drwxr-xr-x  4 Michael  staff  128  7 Feb 20:01 .
+drwxr-xr-x  4 Michael  staff  128  7 Feb 20:01 ..
+-rw-r--r--  1 Michael  staff    0  7 Feb 19:32 Febuary.tx
+-rw-r--r--  1 Michael  staff    0  7 Feb 19:32 January.txt
+8.a. Michaels-MacBook-Air-2:Months Michael$ pwd
+/Users/Michael/Documents/CodingNomads3/Terminal_testing/Months
+Michaels-MacBook-Air-2:Months Michael$ rm January.txt
+Michaels-MacBook-Air-2:Months Michael$ ls -al
+total 0
+drwxr-xr-x  3 Michael  staff   96  7 Feb 20:02 .
+drwxr-xr-x  4 Michael  staff  128  7 Feb 20:01 ..
+-rw-r--r--  1 Michael  staff    0  7 Feb 19:32 Febuary.tx
+
+8.b. Michaels-MacBook-Air-2:Terminal_testing Michael$ pwd
+/Users/Michael/Documents/CodingNomads3/Terminal_testing
+Michaels-MacBook-Air-2:Terminal_testing Michael$ ls -al
+total 8
+drwxr-xr-x  4 Michael  staff  128  7 Feb 20:01 .
+drwxr-xr-x  7 Michael  staff  224  7 Feb 18:49 ..
+-rw-r--r--  1 Michael  staff  134  7 Feb 19:00 March.txt
+drwxr-xr-x  3 Michael  staff   96  7 Feb 20:02 Months
+Michaels-MacBook-Air-2:Terminal_testing Michael$ rm -r Months
+Michaels-MacBook-Air-2:Terminal_testing Michael$ ls -al
+total 8
+drwxr-xr-x  3 Michael  staff   96  7 Feb 20:04 .
+drwxr-xr-x  7 Michael  staff  224  7 Feb 18:49 ..
+-rw-r--r--  1 Michael  staff  134  7 Feb 19:00 March.txt
+
+9a. Michaels-MacBook-Air-2:Terminal_testing Michael$ vim March.txt
+Michaels-MacBook-Air-2:Terminal_testing Michael$ cat March.txt
+March is the 3rd Month of the year.  It has 31 days.  There are two months that begin with the letter M.  Can you name the other one?
+
+However there are 3 months that begin with the letter 'J'.  Can you name them?
+Michaels-MacBook-Air-2:Terminal_testing Michael$
+ 
+9b. Michaels-MacBook-Air-2:Terminal_testing Michael$ grep "two" March.txt
+March is the 3rd Month of the year.  It has 31 days.  There are two months that begin with the letter M.  Can you name the other one?
+Michaels-MacBook-Air-2:Terminal_testing Michael$ 
 

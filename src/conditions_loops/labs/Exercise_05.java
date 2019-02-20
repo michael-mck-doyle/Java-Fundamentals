@@ -1,5 +1,7 @@
 package conditions_loops.labs;
 
+import java.util.Scanner;
+
 /**
  * Conditions and Loops Exercise 5: Calculator
  *
@@ -16,4 +18,49 @@ package conditions_loops.labs;
  */
 
 public class Exercise_05 {
+
+    public static void main(String[] args) {
+
+        // take number 1 from user
+        // create scanner
+
+        Scanner scannerOne = new Scanner(System.in);
+        // prompt user
+        System.out.print("Enter the first number: ");
+        // assign input to variable as int
+        int numOne = scannerOne.nextInt();
+
+        // take number 2 from user
+        // create a scanner
+        Scanner scannerTwo = new Scanner(System.in);
+        // prompt user
+        System.out.print("Enter the second number. (Note: it must be higher than the first number): ");
+        // assign input to variable as int
+        int numTwo = scannerTwo.nextInt();
+
+        int sumNum = 0;
+
+        int averAge = 0;
+
+
+
+        for ( ;numOne <= numTwo; ) {
+
+
+            System.out.println("NumOne is " + numOne);
+
+            numOne++;
+
+
+        }
+        sumNum = sumNum + numOne;
+        averAge = sumNum/(numTwo-numOne);
+        System.out.println("The sum of numbers is " + sumNum);
+        System.out.println("The average is: " + averAge );
+    }
+
+
+
+
 }
+
