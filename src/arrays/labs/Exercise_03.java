@@ -20,5 +20,19 @@ public class Exercise_03 {
     public static void main(String[] args) {
 
         int[][] twoDArray = new int[5][5];
+
+
+        for (int x = 0; x < twoDArray.length; x++){
+            for (int y = 0; y < twoDArray[x].length; y++){
+                twoDArray[x][y] = (x * y) * 3;
+            }
+        }
+        for(int[] outer : twoDArray){
+            for(int val : outer){
+                System.out.print(val + " -> ");
+            }
+            System.out.println();
+        }
     }
-}
+    }
+

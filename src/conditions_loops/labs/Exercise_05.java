@@ -49,6 +49,8 @@ public class Exercise_05 {
 
         } System.out.println("The sum of the numbers is " + sum);
         System.out.println("The average of the numbers is " + average);
+
+
     }
 
 }

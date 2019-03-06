@@ -10,4 +10,18 @@ package arrays.labs;
 
 public class Exercise_04 {
 
+    public static void main(String[] args) {
+
+        int[][] irregArray = {{12, 24}, {11, 22, 33}, {10, 20, 30, 40}};
+
+
+        for (int[] x : irregArray) {
+            for (int y : x) {
+                System.out.print(y + " -> ");
+            }
+            System.out.println();
+        }
+    }
 }
+
+
