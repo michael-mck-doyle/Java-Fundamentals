@@ -31,14 +31,13 @@ public class Exercise_01 {
             nums[n] = numEnter;
 
 
-
         } for (int i = 0; i<nums.length; i++) {
             sum = sum + nums[i];
             average = (sum/10);
 
         }
         System.out.println();
-        System.out.println("The sum of numbers entered is " + sum);
+        System.out.println("The sum of the numbers entered is " + sum);
         System.out.println("The average of the numbers entered is " + average);
 
 
