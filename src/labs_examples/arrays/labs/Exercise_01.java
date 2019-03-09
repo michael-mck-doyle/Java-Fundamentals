@@ -23,7 +23,7 @@ public class Exercise_01 {
         // create scanner
         Scanner scanner = new Scanner(System.in);
         // prompt user
-        for (int n = 0; n < 10; n++) {
+        for (int n = 0; n < nums.length; n++) {
             System.out.print("Enter a number: ");
             // assign input to variable as int
             int numEnter = scanner.nextInt();
@@ -31,7 +31,7 @@ public class Exercise_01 {
             nums[n] = numEnter;
 
 
-        } for (int i = 0; i<nums.length; i++) {
+        } for (int i = 0; i < nums.length; i++) {
             sum = sum + nums[i];
             average = (sum/10);
 
