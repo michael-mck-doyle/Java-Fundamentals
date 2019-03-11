@@ -7,7 +7,7 @@ package labs_examples.conditions_loops.labs;
  *
  */
 
-public class Exercise_10 {
+public class Exercise_10_Continue {
 
 
     public static void main(String[] args) {

@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  */
 
-public class Exercise_02 {
+public class Exercise_02_IfElse {
 
     public static void main(String[] args) {
 

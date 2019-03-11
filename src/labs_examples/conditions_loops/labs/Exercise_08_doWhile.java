@@ -7,7 +7,7 @@ package labs_examples.conditions_loops.labs;
  *
  */
 
-public class Exercise_08 {
+public class Exercise_08_DoWhile {
 
     public static void main(String[] args) {
 
@@ -16,7 +16,9 @@ public class Exercise_08 {
         do {
 
             System.out.println(i);
+
             i -=3;
+
         } while (i > 0);
     }
 }

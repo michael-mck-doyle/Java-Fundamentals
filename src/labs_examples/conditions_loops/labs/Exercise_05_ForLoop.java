@@ -17,7 +17,7 @@ import java.util.Scanner;
  *
  */
 
-public class Exercise_05 {
+public class Exercise_05_ForLoop {
 
     public static void main(String[] args) {
 

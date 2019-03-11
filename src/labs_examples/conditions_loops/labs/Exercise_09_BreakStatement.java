@@ -7,7 +7,7 @@ package labs_examples.conditions_loops.labs;
  *
  */
 
-public class Exercise_09 {
+public class Exercise_09_BreakStatement {
 
     public static void main(String[] args) {
 

@@ -7,7 +7,7 @@ package labs_examples.conditions_loops.labs;
  *
  */
 
-public class Exercise_06 {
+public class Exercise_06_While {
 
     public static void main(String[] args) {
 
@@ -16,7 +16,7 @@ public class Exercise_06 {
 
         while (i<=100) {
 
-            sum = sum +i;
+            sum += i;
             i++;
         }
         System.out.println(sum);

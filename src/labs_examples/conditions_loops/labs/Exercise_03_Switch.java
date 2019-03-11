@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  */
 
-public class Exercise_03 {
+public class Exercise_03_Switch {
 
     public static void main(String[] args) {
 
