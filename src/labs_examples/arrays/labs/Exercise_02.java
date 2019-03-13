@@ -23,10 +23,11 @@ public class Exercise_02 {
         // assign input to variable as int
         int number = scanner.nextInt();
 
+        // write code here
         System.out.println();
         System.out.println("The corresponding index value in 'array' is " + array[number]);
 
-        // write code here
+
 
 
     }
