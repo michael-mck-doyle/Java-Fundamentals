@@ -9,5 +9,5 @@ package labs_examples.arrays.labs;
  *      shows a list of methods.
  *
  */
-public class Exercise_07 {
+public class Exercise_07_ArrayLists {
 }

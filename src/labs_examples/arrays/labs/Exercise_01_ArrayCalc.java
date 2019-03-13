@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  */
 
-public class Exercise_01 {
+public class Exercise_01_ArrayCalc {
 
 
     public static void main(String[] args) {

@@ -15,7 +15,7 @@ package labs_examples.arrays.labs;
  *
  */
 
-public class Exercise_03 {
+public class Exercise_03_2DArray {
 
     public static void main(String[] args) {
 
