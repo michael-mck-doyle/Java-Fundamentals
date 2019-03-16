@@ -6,6 +6,8 @@ package labs_examples.conditions_loops.labs;
  *      Use a nested for loop to generate a multiplication table for numbers 1-10.
  *      The output should look something like this:
  *
+ *      Hint: use "System.out.print()" rather than "System.out.println()" to print multiple numbers to the same line.
+ *
  *      1 |2 |3 |4 |5 |6 |7 |8 |9 |10 |
  *      2 |4 |6 |8 |10|12|14|16|18|20 |
  *      3 |6 |9 |12|15|18|21|24|27|30 |
@@ -19,13 +21,14 @@ package labs_examples.conditions_loops.labs;
  *
  */
 
+
 public class Exercise_11_NestedFor {
 
     public static void main(String[] args) {
 
         for (int i = 1; i <= 10; i++) {
-            System.out.println( i );
-            for (int j = 1; j <= 10 ; j++) {
+            System.out.println(i);
+            for (int j = 1; j <= 10; j++) {
                 int num = i * j;
                 System.out.print(num + " | ");
             }
@@ -33,3 +36,4 @@ public class Exercise_11_NestedFor {
 
     }
 }
+
