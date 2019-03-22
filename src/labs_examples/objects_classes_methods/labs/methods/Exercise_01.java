@@ -31,7 +31,7 @@ public class Exercise_01 {
 
         int v = varLength("hello", "I", " am", "a", "varArg");
 
-        System.out.println("The number of words in v is" + v);
+        System.out.println("The number of words in v is " + v);
     }
 
 
@@ -84,10 +84,10 @@ public class Exercise_01 {
         for (String n : v) {
             count++;
 
-
         }
-    } return count;
+        return count;
 
+    }
 }
 
 
