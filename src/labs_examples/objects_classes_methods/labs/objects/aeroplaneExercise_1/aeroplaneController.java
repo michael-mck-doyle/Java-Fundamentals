@@ -44,11 +44,11 @@ public class aeroplaneController {
 
 
         Passenger eileen = new Passenger();
-        michael.setName("eileen");
-        michael.setLuggage(luggage2);
+        eileen.setName("eileen");
+        eileen.setLuggage(luggage2);
 
 
-        aeroplane.getPassengers().add(michael);
+        aeroplane.getPassengers().add(eileen);
 
         describeAeroplane(aeroplane);
 
@@ -57,5 +57,9 @@ public class aeroplaneController {
     private static void describeAeroplane(Aeroplane aeroplane) {
 
         System.out.println(aeroplane.toString());
+
+
     }
+
 }
+
