@@ -22,8 +22,13 @@ super constructors from sub-classes, that you are indeed overriding methods.
 
 Create 5 classes with at least 3 sub-classes
 
-1. Light -
-2. House - Room - Windows - Blinds
+
+1. House - Room - Windows - Blinds
+2. Light
+3. Automation testing
+4. Flower shop - ArrangementType (Plastic or real) + (Bouquet, single flower, shop opening, ) - (price, flowerType) - collect or deliver
+5. Yoga Booking application - Stuidio, Class Style, Class Schedule, teacher,
+
 
 PropertyDeveloper - Home -
 2. Garden - Trees - native species or foreign - other classification
