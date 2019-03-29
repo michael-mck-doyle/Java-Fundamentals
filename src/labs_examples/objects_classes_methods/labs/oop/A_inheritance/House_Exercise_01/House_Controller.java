@@ -1,38 +1,26 @@
 package labs_examples.objects_classes_methods.labs.oop.A_inheritance.House_Exercise_01;
 
+import javax.xml.bind.SchemaOutputResolver;
+
 public class House_Controller {
 
 
     public static void main(String[] args) {
 
-        House newHouse  = new House(11, "Emerald Avenue");
 
-        System.out.println(newHouse);
+        Blinds newBlinds = new Blinds();
 
-        System.out.println((newHouse.getHouseNumber()) + " " + newHouse.getStreetName());
+        newBlinds.setBlindsColour("Green");
+        newBlinds.setBlindsHeight(170);
+        newBlinds.setBlindsWidth(220);
+        newBlinds.setBlindsMaterial("Silk");
+        newBlinds.setPriceMaterial(10);
 
-        newHouse.setHouseNumber(15);
-        newHouse.setStreetName("Ruby Road");
+        newBlinds.blindsCost(170, 220, 10);
 
-        System.out.println((newHouse.getHouseNumber()) + " " + newHouse.getStreetName());
+        System.out.println(newBlinds.getCost());
 
-        //Blinds venetian = new Blinds(18, "Diamond", 3, 2, "Rectangle", "green", "horizontal", "laminated veneer",
-                //180, 250 );
-
-        Room roomColour = new Room();
-
-        roomColour.paintRoom("Green");
-
-        System.out.println(venetian);
-
-        Windows bedroomWindow = new Windows();
-
-        bedroomWindow.paintRoom("Green", "White");
-
-        Blinds blindsCost = new Blinds();
-
-
-
+        System.out.println(newBlinds.getBlindsColour());
 
 
     }

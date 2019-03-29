@@ -1,12 +1,18 @@
 package labs_examples.objects_classes_methods.labs.oop.A_inheritance.House_Exercise_01;
 
-public class Windows extends Room{
+// create class, extend parent class
+// add instance variables
+// create constructors
+// add getter and setter methods
+// add toString
+
+public class Windows extends Room {
 
     private int numWindows;
     private String shapeWindows;
 
-    public Windows() {
-    }
+
+    public Windows() {}
 
     public Windows(int houseNumber, String streetName, int rooms, int numWindows, String shapeWindows) {
         super(houseNumber, streetName, rooms);
@@ -30,12 +36,6 @@ public class Windows extends Room{
         this.shapeWindows = shapeWindows;
     }
 
-    public static void paintRoom(String colour, String windowFrameColour) {
-
-        System.out.println("The room will be painted " + colour);
-        System.out.println("However the window frames will be painted " + windowFrameColour);
-    }
-
     @Override
     public String toString() {
         return "Windows{" +
@@ -44,3 +44,8 @@ public class Windows extends Room{
                 '}';
     }
 }
+
+
+
+
+
