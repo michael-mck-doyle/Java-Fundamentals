@@ -30,6 +30,12 @@ public class Windows extends Room{
         this.shapeWindows = shapeWindows;
     }
 
+    public static void paintRoom(String colour, String windowFrameColour) {
+
+        System.out.println("The room will be painted " + colour);
+        System.out.println("However the window frames will be painted " + windowFrameColour);
+    }
+
     @Override
     public String toString() {
         return "Windows{" +

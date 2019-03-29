@@ -5,6 +5,7 @@ labs_examples.inheritance hierachy. For instance you could create an labs_exampl
 or stores, restaurants, adventures, and really anything else you can imagine. Have some fun with it. Try to challenge
 yourself.
 
+
 2) Once you've created this hiearchy, demonstrate the use of non-default constructors in the parent classes. Meaning,
 use the super(arg1, arg2, ...) command from a subclass to invoke a parameterized constructor in the parent class. Do this
 at least once, several times over would be better.
@@ -21,13 +22,14 @@ super constructors from sub-classes, that you are indeed overriding methods.
 
 
 Create 5 classes with at least 3 sub-classes
-
+Call an object data-type e.g. call Blinds from House etc
 
 1. House - Room - Windows - Blinds
 2. Light
 3. Automation testing
 4. Flower shop - ArrangementType (Plastic or real) + (Bouquet, single flower, shop opening, ) - (price, flowerType) - collect or deliver
 5. Yoga Booking application - Stuidio, Class Style, Class Schedule, teacher,
+6. ferry operator
 
 
 PropertyDeveloper - Home -

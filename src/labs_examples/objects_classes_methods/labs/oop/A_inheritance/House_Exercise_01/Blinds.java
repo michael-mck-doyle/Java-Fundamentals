@@ -3,71 +3,104 @@ package labs_examples.objects_classes_methods.labs.oop.A_inheritance.House_Exerc
 public class Blinds extends Windows {
 
     private String blindsColour;
-    private String blindsDirection;
     private String blindsMaterial;
     private int blindsHeight;
     private int blindsWidth;
+    private int priceMaterial;
+    //private int materialNeeded;
+    //private int cost;  // cost = priceMaterial * materialNeeded
+
+    public static int blindsCost(int blindsHeight, int blindsWidth, int priceMaterial) {
+
+        int cost = (blindsHeight * blindsWidth) * priceMaterial;
+
+        return cost;
+
+        public int getPriceMaterial () {
+            return priceMaterial;
+        }
+
+        public void setPriceMaterial(int priceMaterial){
+            this.priceMaterial = priceMaterial;
+        }
+
+    /*public int getMaterialNeeded() {
+        return materialNeeded;
+    }*/
+
+    /*public void setMaterialNeeded(int materialNeeded) {
+        this.materialNeeded = materialNeeded;
+    }*/
+
+
+// create an array containing different prices depending on the material selected
 
     public Blinds() {
-    }
+        }
 
-    public Blinds(int houseNumber, String streetName, int rooms, int numWindows, String shapeWindows, String blindsColour, String blindsDirection, String blindsMaterial, int blindsHeight, int blindsWidth) {
-        super(houseNumber, streetName, rooms, numWindows, shapeWindows);
-        this.blindsColour = blindsColour;
-        this.blindsDirection = blindsDirection;
-        this.blindsMaterial = blindsMaterial;
-        this.blindsHeight = blindsHeight;
-        this.blindsWidth = blindsWidth;
-    }
+    public Blinds( int houseNumber, String streetName,int rooms, int numWindows, String shapeWindows, String
+        blindsColour, String blindsDirection, String blindsMaterial,int blindsHeight, int blindsWidth){
+            super(houseNumber, streetName, rooms, numWindows, shapeWindows);
+            this.blindsColour = blindsColour;
+            this.blindsDirection = blindsDirection;
+            this.blindsMaterial = blindsMaterial;
+            this.blindsHeight = blindsHeight;
+            this.blindsWidth = blindsWidth;
+        }
 
-    public String getBlindsColour() {
-        return blindsColour;
-    }
 
-    public void setBlindsColour(String blindsColour) {
-        this.blindsColour = blindsColour;
-    }
+        public String getBlindsColour () {
+            return blindsColour;
+        }
 
-    public String getBlindsDirection() {
-        return blindsDirection;
-    }
+        public void setBlindsColour (String blindsColour){
+            this.blindsColour = blindsColour;
+        }
 
-    public void setBlindsDirection(String blindsDirection) {
-        this.blindsDirection = blindsDirection;
-    }
+        public String getBlindsDirection () {
+            return blindsDirection;
+        }
 
-    public String getBlindsMaterial() {
-        return blindsMaterial;
-    }
+        public void setBlindsDirection (String blindsDirection){
+            this.blindsDirection = blindsDirection;
+        }
 
-    public void setBlindsMaterial(String blindsMaterial) {
-        this.blindsMaterial = blindsMaterial;
-    }
+        public String getBlindsMaterial () {
+            return blindsMaterial;
+        }
 
-    public int getBlindsHeight() {
-        return blindsHeight;
-    }
+        public void setBlindsMaterial (String blindsMaterial){
+            this.blindsMaterial = blindsMaterial;
+        }
 
-    public void setBlindsHeight(int blindsHeight) {
-        this.blindsHeight = blindsHeight;
-    }
+        public int getBlindsHeight () {
+            return blindsHeight;
+        }
 
-    public int getBlindsWidth() {
-        return blindsWidth;
-    }
+        public void setBlindsHeight ( int blindsHeight){
+            this.blindsHeight = blindsHeight;
+        }
 
-    public void setBlindsWidth(int blindsWidth) {
-        this.blindsWidth = blindsWidth;
-    }
+        public int getBlindsWidth () {
+            return blindsWidth;
+        }
 
-    @Override
-    public String toString() {
-        return "Blinds{" +
-                "blindsColour='" + blindsColour + '\'' +
-                ", blindsDirection='" + blindsDirection + '\'' +
-                ", blindsMaterial='" + blindsMaterial + '\'' +
-                ", blindsHeight=" + blindsHeight +
-                ", blindsWidth=" + blindsWidth +
-                '}';
+        public void setBlindsWidth ( int blindsWidth){
+            this.blindsWidth = blindsWidth;
+        }
+
+        @Override
+        public String toString () {
+            return "Blinds{" +
+                    "blindsColour='" + blindsColour + '\'' +
+                    ", blindsDirection='" + blindsDirection + '\'' +
+                    ", blindsMaterial='" + blindsMaterial + '\'' +
+                    ", blindsHeight=" + blindsHeight +
+                    ", blindsWidth=" + blindsWidth +
+                    ", priceMaterial=" + priceMaterial +
+                    ", materialNeeded=" + materialNeeded +
+                    ", cost=" + cost +
+                    '}';
+        }
     }
 }

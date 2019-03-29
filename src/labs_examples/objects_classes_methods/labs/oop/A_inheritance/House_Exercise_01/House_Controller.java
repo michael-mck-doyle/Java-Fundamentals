@@ -16,12 +16,24 @@ public class House_Controller {
 
         System.out.println((newHouse.getHouseNumber()) + " " + newHouse.getStreetName());
 
-        Blinds venetian = new Blinds(18, "Diamond", 3, 2, "Rectangle", "green", "horizontal", "laminated veneer",
-                180, 250 );
+        //Blinds venetian = new Blinds(18, "Diamond", 3, 2, "Rectangle", "green", "horizontal", "laminated veneer",
+                //180, 250 );
 
+        Room roomColour = new Room();
 
+        roomColour.paintRoom("Green");
 
         System.out.println(venetian);
+
+        Windows bedroomWindow = new Windows();
+
+        bedroomWindow.paintRoom("Green", "White");
+
+        Blinds blindsCost = new Blinds();
+
+
+
+
 
     }
 }

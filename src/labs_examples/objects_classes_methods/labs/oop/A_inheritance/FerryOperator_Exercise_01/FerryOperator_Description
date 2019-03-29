@@ -1,0 +1,38 @@
+
+
+6. Ferry operator
+
+ 1. Roles - Admin or User
+
+ 1.1. one module extends Admin role
+ 1.2  one module extends User role
+
+ 2. Route (Singapore to Batam / Batam to Singapore) -
+ 2.1 Admin can add route
+ 2.2 User can search route
+ 2.2.1. User can search by departure and destination
+ 2.2.1.1 This will return times and duration for each route
+
+ - add feature that enables
+
+ Specific route (SingDepartureTerminal to BatamArrivalTerminal)
+
+ duration of journey
+
+ Ticket - type of ticket - cost of ticket - validity of ticket
+
+ seat reservation
+
+ Ferry operator
+
+ type of ferry
+
+ capacity
+
+ number of crew
+
+ information on vessel - age of vessel
+
+  amenities - safety features
+
+  - cost of ticket - choose seat/reservation - luggage - passport control

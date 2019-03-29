@@ -21,6 +21,12 @@ public class Room extends House {
         this.rooms = rooms;
     }
 
+    public static void paintRoom(String colour) {
+
+        System.out.println("The room will be painted " + colour);
+    }
+
+
     @Override
     public String toString() {
         return "Room{" +
