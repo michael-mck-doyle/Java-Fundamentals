@@ -1,4 +1,4 @@
-package labs_examples.objects_classes_methods.labs.objects.OverLoadConstructors_Exercise3;
+package labs_examples.objects_classes_methods.labs.objects.overLoadConstructors_Exercise3;
 
 public class Bottle {
 

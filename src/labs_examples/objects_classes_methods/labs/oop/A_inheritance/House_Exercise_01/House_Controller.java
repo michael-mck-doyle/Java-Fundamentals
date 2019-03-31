@@ -1,6 +1,7 @@
 package labs_examples.objects_classes_methods.labs.oop.A_inheritance.House_Exercise_01;
 
-import javax.xml.bind.SchemaOutputResolver;
+// create a blinds objects for rooms in the house and calculate the cost using height, width and cost of material
+
 
 public class House_Controller {
 
@@ -8,20 +9,30 @@ public class House_Controller {
     public static void main(String[] args) {
 
 
-        Blinds newBlinds = new Blinds();
+        Blinds bedroomBlinds = new Blinds();
 
-        newBlinds.setBlindsColour("Green");
-        newBlinds.setBlindsHeight(170);
-        newBlinds.setBlindsWidth(220);
-        newBlinds.setBlindsMaterial("Silk");
-        newBlinds.setPriceMaterial(10);
+        bedroomBlinds.setBlindsColour("Green");
+        bedroomBlinds.setBlindsHeight(170);
+        bedroomBlinds.setBlindsWidth(220);
+        bedroomBlinds.setBlindsMaterial("Silk");
+        bedroomBlinds.setPriceMaterial(10);
 
-        newBlinds.blindsCost(170, 220, 10);
+        bedroomBlinds.blindsCost(170, 220, 10);
 
-        System.out.println(newBlinds.getCost());
+        System.out.println(bedroomBlinds.getCost());
 
-        System.out.println(newBlinds.getBlindsColour());
+        System.out.println("The bedroom blinds are " + bedroomBlinds.getBlindsColour());
 
 
+        Blinds kitchenBlinds = new Blinds();
+        kitchenBlinds.setBlindsColour("White");
+        int kitchenBlindsCost = kitchenBlinds.blindsCost(50, 50, 3);
+
+        System.out.println("The kitchen blinds are " + kitchenBlinds.getBlindsColour());
+        System.out.println("Blinds height " + kitchenBlinds.getBlindsHeight());
+        System.out.println("Blinds width " + kitchenBlinds.getBlindsWidth());
+        System.out.println("Price of material is " + kitchenBlinds.getPriceMaterial());
+
+        System.out.println("The bedroom blinds are " + kitchenBlindsCost);
     }
 }
