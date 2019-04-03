@@ -4,17 +4,20 @@ import java.util.ArrayList;
 
 public class Patient {
 
-    String name;
+    private String patientName;
     private ArrayList<Prescription> prescriptions = new ArrayList<>();
 
+    /*public Patient(String patientName, ArrayList<Prescription> prescriptions) {
+        this.patientName = patientName;
+        this.prescriptions = prescriptions;
+    }*/
 
-
-    public String getName() {
-        return name;
+    public String getPatientName() {
+        return patientName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPatientName(String patientName) {
+        this.patientName = patientName;
     }
 
     public ArrayList<Prescription> getPrescriptions() {
@@ -27,13 +30,10 @@ public class Patient {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (Prescription p : prescriptions) {
-            sb.append(p.toString());
-        }
         return "Patient{" +
-                "name='" + name + '\'' +
+                "patientName='" + patientName + '\'' +
                 ", prescriptions=" + prescriptions +
                 '}';
     }
 }
+

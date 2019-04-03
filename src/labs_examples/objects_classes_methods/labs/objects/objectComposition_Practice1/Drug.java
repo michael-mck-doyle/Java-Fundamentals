@@ -7,6 +7,11 @@ public class Drug {
    private int drugQuantity;
 
 
+    /*public Drug(String drugName, String drugStrength, int drugQuantity) {
+        this.drugName = drugName;
+        this.drugStrength = drugStrength;
+        this.drugQuantity = drugQuantity;
+    }*/
 
     public String getDrugName() {
         return drugName;
@@ -16,6 +21,7 @@ public class Drug {
         this.drugName = drugName;
     }
 
+
     public String getDrugStrength() {
         return drugStrength;
     }
@@ -23,6 +29,7 @@ public class Drug {
     public void setDrugStrength(String drugStrength) {
         this.drugStrength = drugStrength;
     }
+
 
     public int getDrugQuantity() {
         return drugQuantity;

@@ -6,6 +6,9 @@ public class Pharmacy {
 
     private ArrayList<Patient> patients = new ArrayList<>();
 
+    /*public Pharmacy(ArrayList<Patient> patients) {
+        this.patients = patients;
+    }*/
 
     public ArrayList<Patient> getPatients() {
         return patients;

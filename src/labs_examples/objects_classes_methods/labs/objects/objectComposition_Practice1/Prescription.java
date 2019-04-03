@@ -7,7 +7,10 @@ public class Prescription {
     private String doctorName;
     private ArrayList<Drug> drugs = new ArrayList<>();
 
-
+    /*public Prescription(String doctorName, ArrayList<Drug> drugs) {
+        this.doctorName = doctorName;
+        this.drugs = drugs;
+    }*/
 
     public String getDoctorName() {
         return doctorName;
@@ -34,7 +37,7 @@ public class Prescription {
 
         return "Prescription{" +
                 "doctorName='" + doctorName + '\'' +
-                ", drugs=" + drugs +
+                ", drugs=" + sb.toString() +
                 '}';
     }
 }
