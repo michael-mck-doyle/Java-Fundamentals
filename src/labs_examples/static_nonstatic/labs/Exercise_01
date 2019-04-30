@@ -1,10 +1,14 @@
 
 Please create two classes that demonstrate the following:
 
+//static methods
 1) A static method calling another static method in the same class
 2) A static method calling a non-static method in the same class
 3) A static method calling a static method in another class
 4) A static method calling a non-static method in another class
+
+
+// non-static methods
 5) A non-static method calling a non-static method in the same class
 6) A non-static method calling a non-static method in another class
 7) A non-static method calling a static method in the same class
