@@ -2,7 +2,7 @@
 
 This project contains a variety of textbook examples and labs focused on Java labs_examples.fundamentals.
 
-## Getting Started
+#### Getting Started
 
 To get started with this project please follow these instructions:
 ```
