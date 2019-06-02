@@ -13,10 +13,26 @@ class LogicalOperators {
         // example of "OR"
         boolean a = true;
         boolean b = false;
+
         if (a | b){
             System.out.println("a or b is true");
         }
 
+        if (a & b){
+            System.out.println("'a & b' is false");
+        }
+
+        if (a && b){
+            System.out.println("'a && b' is false");
+        }
+
+        if (a ^ b){
+            System.out.println("a or b is true");
+        }
+
+        if (!(a & b)){
+            System.out.println("The value is 'true'");
+        }
         // write your code below
 
     }

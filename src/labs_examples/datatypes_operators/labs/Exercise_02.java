@@ -22,8 +22,14 @@ package labs_examples.datatypes_operators.labs;
 public class Exercise_02 {
 
     public static void main(String[] args) {
+        //widening type conversion
+        int x = 10;
+        double y = (int) x;
+        System.out.println("The value of y is " + y);
 
-        // write code here
-
+        //narrowing type conversion
+        double z = 100.56;
+        int w = (int) z;
+        System.out.println("The value of w is " + w);
     }
 }

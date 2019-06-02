@@ -7,11 +7,11 @@ class ArrayDemo {
 
         String[] whatever = new String[1];
 
-        double name1[] = new double[987];
+        double[] name1 = new double[987];
 
         char i = 'A';
 
-        for (int x = 0; x < 26; x++, i++){
+        for (int x = 0; x < 26; x++, i++) {
             alphabet[x] = i;
             System.out.print(alphabet[x]);
         }
@@ -20,13 +20,12 @@ class ArrayDemo {
         char ch = 'c';
 
 
-
-        for(int x = 0; x <= alphabet.length - 1; x++)
-        {
+        for (int x = 0; x <= alphabet.length - 1; x++) {
 
         }
 
 
-
     }
+
+
 }

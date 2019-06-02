@@ -20,7 +20,7 @@ public class TraditionalArray {
         nums[2] = 12;
 
         // if you umcomment the line below and run it it will generate an IndexOutOfBoundsException
-        // nums[3] = 76; // there is no index of three
+        //nums[3] = 76; // there is no index of three
 
         // 3 will print - because the length is 3 - but the last index is two, because the indices start at 0
         System.out.println(nums.length);

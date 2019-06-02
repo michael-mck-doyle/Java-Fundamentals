@@ -12,6 +12,8 @@ class Guess {
 
         ch = (char) System.in.read(); // read a char from the keyboard
 
-        if(ch == answer) System.out.println("** Right **");
+        if (ch == answer) System.out.println("** Right **");
     }
+
+
 }
