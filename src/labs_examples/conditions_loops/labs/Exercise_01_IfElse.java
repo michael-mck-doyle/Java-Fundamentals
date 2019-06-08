@@ -30,6 +30,23 @@ public class Exercise_01_IfElse {
             System.out.println("You have entered an odd number");
 
         }
+
+        //second example
+        // create scanner
+        Scanner scanner2 = new Scanner(System.in);
+        // prompt user - World Cup years fall on an even year every four years - enter a year
+        //to check if a World Cup was held on that year
+        System.out.print("Enter a year after 1950 to check if it was a World Cup year: ");
+        // assign input to variable as int
+        int number2 = scanner.nextInt();
+
+        // write completed code here
+        if ((number2 - 1950) % 4 == 0) {
+            System.out.println("Goal! You have guessed a World Cup Year");
+        } else {
+            System.out.println("Penalty miss! Better luck next time...");
+
+        }
         }
 
 

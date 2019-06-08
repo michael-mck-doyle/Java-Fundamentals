@@ -30,7 +30,7 @@ public class Exercise_11_NestedFor {
             System.out.println(i);
             for (int j = 1; j <= 10; j++) {
                 int num = i * j;
-                System.out.print(num + " | ");
+                System.out.print(num + "| ");
             }
         }
 

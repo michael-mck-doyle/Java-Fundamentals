@@ -40,7 +40,7 @@ public class Exercise_05_ForLoop {
 
 
         int sum = 0;
-        double average = ((numOne + numTwo)/ (double)2);
+        double average = ( (double)(numOne + numTwo)/  2);
 
         for ( ; numOne <= numTwo; numOne++) {
 

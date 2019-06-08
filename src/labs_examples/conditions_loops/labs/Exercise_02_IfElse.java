@@ -26,8 +26,7 @@ public class Exercise_02_IfElse {
 
         if (number == 1) {
             System.out.println("You have selected Monday");
-        }
-        if (number == 2) {
+        } if (number == 2) {
             System.out.println("You have selected Tuesday");
         } else if (number == 3) {
             System.out.println("You have selected Wednesday");

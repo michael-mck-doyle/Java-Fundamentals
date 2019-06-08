@@ -14,10 +14,11 @@ public class Exercise_06_While {
         int i = 0;
         int sum = i;
 
-        while (i<=100) {
+        while (i<100) {
 
-            sum += i;
             i++;
+            sum += i;
+            System.out.println("i is " + i);
         }
         System.out.println(sum);
     }

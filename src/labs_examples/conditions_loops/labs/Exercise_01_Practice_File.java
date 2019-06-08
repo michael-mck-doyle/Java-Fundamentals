@@ -1,5 +1,6 @@
 package labs_examples.conditions_loops.labs;
 
+import javax.xml.bind.SchemaOutputResolver;
 import java.util.Scanner;
 
 /**
@@ -14,7 +15,7 @@ import java.util.Scanner;
 
 public class Exercise_01_Practice_File {
 
-    public static void main(String[] args) {
+    //public static void main(String[] args) {
 
         // create scanner
         //Scanner scanner = new Scanner(System.in);
@@ -135,7 +136,7 @@ public class Exercise_01_Practice_File {
                 System.out.println("i * x = " + (i * x));
             }
             System.out.println("-------------");
-        }*/
+        }
 
         System.out.println("Starting...");
         for (int i = 0; i < 10; i++){
@@ -148,7 +149,75 @@ public class Exercise_01_Practice_File {
         }
         System.out.println("Done!");
     }
+
+
+
+        //switch statements - it's important to have the break statement
+        // otherwise all options after the trigger will also be displayed
+        // the break statement exits the switch statement after the condition has been triggered
+
+
+        int hour = 0;
+        switch (hour) {
+            case 1:
+                System.out.println("It is one o'clock");
+                break;
+            case 2:
+                System.out.println("It is two o'clock");
+                break;
+            case 3:
+                System.out.println("It is three o'clock");
+                break;
+            case 4:
+                System.out.println("It is four o'clock");
+                break;
+            default:
+                System.out.println("Default was hit");
+        }
+        //the Switch statement also works with letters
+        char letter = 'a';
+        switch (letter) {
+            case 'a':
+                System.out.println("It is one o'clock");
+                break;
+            case 'b':
+                System.out.println("It is two o'clock");
+                break;
+            case 'c':
+                System.out.println("It is three o'clock");
+                break;
+            case 'd':
+                System.out.println("It is four o'clock");
+                break;
+            default:
+                System.out.println("Default was hit");
+        }
+
+        public static void main(String[] args){
+            demonstrateVoidReturn(21);
+            int a = multiply(456, 987);
+            System.out.println("a = " + a);
+        }
+
+        public static void demonstrateVoidReturn(int num){
+            if (num < 20) {
+                // we will simply exit this method without doing anything else if num is less than 20
+                return;
+            } else {
+                System.out.println("num is >= 20");
+            }
+        }
+
+        public static int multiply(int a, int b){
+            int x = a * b;
+            // now we'll return the int value x to the calling method this method
+            //  declares "int" as it's return type and we're returning an int so all is well
+            return x;
+        }*/
+
     }
+
+
 
 
 
