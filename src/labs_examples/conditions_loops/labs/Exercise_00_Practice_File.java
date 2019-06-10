@@ -13,7 +13,7 @@ import java.util.Scanner;
  *      NOTE: We will be using the Scanner class to collect user input. This is demonstrated below.
  */
 
-public class Exercise_01_Practice_File {
+public class Exercise_00_Practice_File {
 
     //public static void main(String[] args) {
 
