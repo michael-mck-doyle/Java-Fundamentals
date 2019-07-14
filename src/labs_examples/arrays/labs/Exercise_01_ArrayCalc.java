@@ -26,10 +26,10 @@ public class Exercise_01_ArrayCalc {
         for (int n = 0; n < nums.length; n++) {
             System.out.print("Enter a number: ");
             // assign input to variable as int
-            int numEnter = scanner.nextInt();
+           //int numEnter = scanner.nextInt();
 
-            nums[n] = numEnter;
-
+            //nums[n] = numEnter;
+            nums[n] = scanner.nextInt();
 
         } for (int i = 0; i < nums.length; i++) {
             sum = sum + nums[i];
