@@ -1,4 +1,4 @@
-package labs_examples.objects_classes_methods.labs.objects.objectAssociation_Exercise2;
+package labs_examples.objects_classes_methods.labs.objects.exercise_02_yoga_objectAssociation;
 
 public class YogaClass {
 

@@ -1,4 +1,4 @@
-package labs_examples.objects_classes_methods.labs.objects.exercise_01_aeroplane;
+package labs_examples.objects_classes_methods.labs.objects.exercise_01_aeroplane_objectComposition;
 
 public class Passenger {
 
