@@ -1,4 +1,4 @@
-package labs_examples.objects_classes_methods.labs.objects.objectComposition_Practice1;
+package labs_examples.objects_classes_methods.labs.objects.exercise_01_pharmacy;
 
 import java.util.ArrayList;
 
