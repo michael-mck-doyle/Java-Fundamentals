@@ -1,4 +1,4 @@
-package labs_examples.objects_classes_methods.labs.methods.OverloadingConstructors_Exercise3;
+package labs_examples.objects_classes_methods.labs.methods.Exercise_03_OverloadingConstructors;
 
 public class Milk {
 
