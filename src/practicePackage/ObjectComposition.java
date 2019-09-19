@@ -13,7 +13,7 @@ public class ObjectComposition {
 
     NewCar Roadster = new NewCar(newEngine, newStereo, "Porsche", "Black");
 
-        System.out.println("My car is a " + Roadster.colour + " " + Roadster.model + ". It has a " + Roadster.stereo.brand + " stereo and a "
+        System.out.println("My car is a " + Roadster.colour + " " + Roadster.model + ". It has a " + newStereo.brand + " stereo and a "
         + Roadster.engine.horsePower + " engine");
     }
 
