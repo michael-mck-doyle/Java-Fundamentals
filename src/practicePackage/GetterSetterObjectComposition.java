@@ -12,7 +12,7 @@ public class GetterSetterObjectComposition {
         Stadium parkhead = new Stadium(50000, "Paradise");
         SoccerTeam celtic = new SoccerTeam(players, teamStrip, parkhead, "Lennon", "Glasgow", 100);
 
-        System.out.println("My team Celtic usually plays with " +  players.getDefenders() + " defenders and "
+        System.out.println("My team Celtic usually plays with " + players.getDefenders() + " defenders and "
                 + players.getStrikers() + " strikers.");
 
         System.out.println("The stadium they play at is called " + parkhead.getName() + ". It has a capacity of "
@@ -26,7 +26,21 @@ public class GetterSetterObjectComposition {
 
         System.out.println(celtic.getStadium().getName() + " is the name of the stadium they play at." +
                 " It has " + celtic.getStadium().getSeats() + " seats.");
+
+
+        teamStrip.setColour("Green & Gold");
+
+        System.out.println("The team play in a " + teamStrip.getColour() + " strip. It costs "
+                + teamStrip.getPrice() + " dollars to buy.");
+
+        celtic.setManager("Larson");
+
+        System.out.println(celtic.getManager() + " is the manager of Celtic." + celtic.getLocation() +
+                " is where the team come from.");
+
     }
+
+
 }
 
 
