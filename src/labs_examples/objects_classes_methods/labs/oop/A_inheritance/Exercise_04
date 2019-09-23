@@ -10,9 +10,12 @@ public class InheritanceTest
     Parent c = new Child();
     c.doSomething();
   }
+
 }
 
+
 class Parent
+
 {
   public void doSomething()
   {
