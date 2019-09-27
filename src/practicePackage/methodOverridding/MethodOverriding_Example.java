@@ -6,18 +6,27 @@ class MethodOverriding_Example {
     public static void main(String[] args) {
 
 
-        Weather todaysWeather = new Weather(27,"Cloudy");
+        //Weather todaysWeather = new Weather(27,"Cloudy");
 
 
-        todaysWeather.weatherForecast(25,"Cloudy");
+        //todaysWeather.weatherForecast(25,"Cloudy");
 
 
-        Rain rainToday = new Rain(23,"Rain", 10,"Heavy");
+        //Rain rainToday = new Rain(23,"Rain", 10,"Heavy");
 
-        rainToday.weatherForecast(27,"Rain");
+        //rainToday.weatherForecast(27,"Rain");
 
-        rainToday.tomorrowForecast(27, "Rain", 15, "Heavy");
+        //rainToday.tomorrowForecast(27, "Rain", 15, "Heavy");
 
+        //Weather drizzle = new Rain(12,"drizzle",5, "light");
+
+        //((Rain) drizzle).tomorrowForecast(12,"drizzly",5,"light");
+
+        //drizzle.weatherForecast(25,"Sunny");
+
+        Rain fiveDayForecast = new Rain(23,"sunny",2,"light");
+
+        fiveDayForecast.fiveDayForecast(25,"Bright & Sunny", 2, "light");
 
     }
 
@@ -47,13 +56,13 @@ class Weather {
 
 class Rain extends Weather {
 
-    int rainfall;
-    String rainType;
+    private int rainfall;
+    private String rainType;
 
     public Rain(int temperature, String forecast, int rainfall, String rainType) {
         super(temperature, forecast);
-        this.rainfall = rainfall;
-        this.rainType = rainType;
+        this.setRainfall(rainfall);
+        this.setRainType(rainType);
 
     }
 
@@ -69,9 +78,29 @@ class Rain extends Weather {
     public void tomorrowForecast(int temperature, String forecast, int rainfall, String rainType){
 
             System.out.println("Tomorrow is expected to be " + forecast + " with " + rainType +
-                    " rain with approx" + rainfall + "mls of rain expected. The temperature will be around "
+                    " rain and approx " + rainfall + "mls of rain is expected. The temperature will be around "
                     + temperature + " degrees Celsius.");
 
-
         }
+
+    public void fiveDayForecast(int temperature, String forecast, int rainfall, String rainType){
+        this.weatherForecast(temperature,forecast);
+        this.tomorrowForecast(temperature,forecast,rainfall,rainType);
     }
+
+    public int getRainfall() {
+        return rainfall;
+    }
+
+    public void setRainfall(int rainfall) {
+        this.rainfall = rainfall;
+    }
+
+    public String getRainType() {
+        return rainType;
+    }
+
+    public void setRainType(String rainType) {
+        this.rainType = rainType;
+    }
+}
