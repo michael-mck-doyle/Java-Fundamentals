@@ -24,9 +24,14 @@ class MethodOverriding_Example {
 
         //drizzle.weatherForecast(25,"Sunny");
 
-        Rain fiveDayForecast = new Rain(23,"sunny",2,"light");
+        //Rain fiveDayForecast = new Rain(23,"sunny",2,"light");
 
-        fiveDayForecast.fiveDayForecast(25,"Bright & Sunny", 2, "light");
+        //fiveDayForecast.fiveDayForecast(25,"Bright & Sunny", 2, "light");
+
+
+        Rain newDay = new Rain(25,"Sunny", 2, "breezy");
+
+        newDay.parentAndChildMethods(25, "Bright & Breezy");
 
     }
 
@@ -49,7 +54,7 @@ class Weather {
     public void weatherForecast (int temperature, String forecast){
 
         System.out.println("Today is expected to be " + forecast + " with a temperature of " + temperature +
-             " degrees Centigrade.");
+             " degrees Centigrade. *** Note, This is the parent method!! ***");
     }
 
 }
@@ -86,6 +91,11 @@ class Rain extends Weather {
     public void fiveDayForecast(int temperature, String forecast, int rainfall, String rainType){
         this.weatherForecast(temperature,forecast);
         this.tomorrowForecast(temperature,forecast,rainfall,rainType);
+    }
+
+    public void parentAndChildMethods(int temperature, String forecast){
+        super.weatherForecast(temperature, forecast);
+        this.weatherForecast(temperature,forecast);
     }
 
     public int getRainfall() {
