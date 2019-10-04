@@ -4,7 +4,7 @@ class superKeyword_Practice {
 
     public static void main(String[] args) {
 
-        Sublass newSubclass = new Sublass();
+        Subclass newSubclass = new Subclass();
         newSubclass.printMethod();
         System.out.println();
         newSubclass.someOtherMethod();
@@ -27,7 +27,7 @@ class Superclass {
 }
 
 
-class Sublass extends Superclass{
+class Subclass extends Superclass{
 
     @Override
     public void printMethod() {

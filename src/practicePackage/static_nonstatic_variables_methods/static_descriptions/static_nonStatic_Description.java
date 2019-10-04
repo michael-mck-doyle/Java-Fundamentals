@@ -1,6 +1,3 @@
-
-
-
 /*
 Static Variable
 - doesn't need an object to be created for it to exist, it can already be accessed
