@@ -8,8 +8,16 @@ class StaticBlockExample {
 
     static {
 
+        System.out.println("Static Block 1");
         num = 97;
-        mystr = "Static variable instantiated in static block";
+        mystr = "Static variable instantiated in static block 1";
+    }
+
+    static {
+
+        System.out.println("Static Block 2");
+        num = 33;
+        mystr = "Static block 2 num overwrites Static block 1 num value";
     }
 
     public static void main(String[] args) {
