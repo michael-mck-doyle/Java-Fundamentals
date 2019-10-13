@@ -1,0 +1,8 @@
+
+
+
+try - a block of code. If an error occurs inside, the error is thrown
+catch - used to catch and handle errors thrown in try block
+throw - used to manually throw an exception
+throws - used to declare that a method may through one or some exceptions
+finally - a block of code that is executed after a try, no matter what
