@@ -5,7 +5,7 @@ public class TryCatch_MultipleCatch {
 
     public static void main(String[] args) {
 
-        System.out.println(tryCatchExample.tryCatch());
+        tryCatchExample.tryCatch();
 
 
     }
@@ -13,19 +13,27 @@ public class TryCatch_MultipleCatch {
 
     class tryCatchExample {
 
-    static int[] nums = {3, 0, 7, 9};
 
-    static int tryCatch() {
+
+    static void tryCatch() {
+
+        int[] nums = {12, 0, 4, 9};
 
         try {
 
-            int x = nums[0] / nums[1];
+            int x = nums[0] / nums[2];
 
-            return x;
+            System.out.println(x);
 
         } catch (ArithmeticException first) {
+            System.out.println("Exception caught");
             
+        } finally {
+
+            System.out.println("Everything has finished now");
         }
 
-    return x; }
+    } {
+
+        }
     }
