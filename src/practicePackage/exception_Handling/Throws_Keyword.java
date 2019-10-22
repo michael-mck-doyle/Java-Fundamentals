@@ -4,14 +4,14 @@ public class Throws_Keyword {
 
     public static void main(String[] args) {
 
-        try
-        {
+        try {
         int x = divide(4, 0);
-    } catch (ArithmeticException one) {
+
+        } catch (ArithmeticException one) {
             System.out.println("an exception was thrown from the divide() method");
 
         }
-    System.out.println("All finished!");
+            System.out.println("All finished!");
 }
 
 
