@@ -8,7 +8,7 @@ class ReadBytes {
     public static void main(String args[])
             throws IOException {
 
-        byte data[] = new byte[11];
+        byte[] data = new byte[18];
 
         System.out.println("Enter some characters.");
 
