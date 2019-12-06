@@ -12,13 +12,18 @@ public class IO_WriteRead {
             try{
                 // create the FileInputStream object
                 // after you run this you should see the example.txt file in this REPL
-                out = new FileOutputStream("example_1.txt");
+               out = new FileOutputStream("plusOne.jpeg");
 
-               String words = "We're writing this to a file using a byte stream";
-               byte[] bytes = words.getBytes();
+               //String words = "We're writing this to a file using a byte stream";
 
+                String moreWords = "Will these words be added to the 'example_1' file?";
+
+               // byte[] bytes = words.getBytes();
+                byte[] moreBytes = moreWords.getBytes();
                 // write the bytes using the FileOutputStream (a byte stream)
                // out.write(bytes);
+
+                out.write(moreBytes);
 
                 // close the connection to the file
                 out.close();
@@ -27,22 +32,25 @@ public class IO_WriteRead {
                 e1.printStackTrace();
             }
 
+            //FileInputStream in;
+
+            // this int will hold the byte we read in from the file
+            int i;
+
             try{
 
-                FileInputStream in = new FileInputStream("example.txt");
-
-                // this int will hold the byte we read in from the file
-                int i;
-
+               // in = new FileInputStream("example_1.txt");
+                FileInputStream plusOne = new FileInputStream("plusOne.jpeg");
                 // while there are more bytes to read, continue looping
                 // the FileInputStream read() methods returns -1 when it reaches the end of the file
-                while((i = in.read()) != -1){
+                //while((i = in.read()) != -1){
+                while((i = plusOne.read()) != -1) {
                     // cast the int to a char (so it's a letter) and print it out
                     System.out.print((char) i);
                 }
 
                 // close the connection to the file
-                in.close();
+                plusOne.close();
 
             }catch(IOException e2){
                 System.out.println("error detected");
