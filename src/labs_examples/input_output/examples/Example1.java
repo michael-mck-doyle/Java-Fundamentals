@@ -17,5 +17,6 @@ class ReadBytes {
         System.out.print("You entered: ");
         for(int i=0; i < data.length; i++)
             System.out.print((char) data[i]);
+
     }
 }
