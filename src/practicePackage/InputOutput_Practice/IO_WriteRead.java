@@ -16,7 +16,8 @@ public class IO_WriteRead {
 
                //String words = "We're writing this to a file using a byte stream";
 
-                String moreWords = "Will these words be added to the 'example_1' file?";
+                String moreWords = String.format("We're writing this to a file using a byte stream. " +
+                        "Will these words be added to the 'example_1' file?");
 
                // byte[] bytes = words.getBytes();
                 byte[] moreBytes = moreWords.getBytes();
