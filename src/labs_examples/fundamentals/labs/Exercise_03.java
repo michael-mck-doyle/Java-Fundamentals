@@ -17,6 +17,9 @@ public class Exercise_03 {
         System.out.println("Hello World!");
         System.out.println("Check out my first program!");
 
+        //January 2020
+        System.out.println("Still here, repeating this exercise in 2020 :-( ");
+
     }
 
 }
