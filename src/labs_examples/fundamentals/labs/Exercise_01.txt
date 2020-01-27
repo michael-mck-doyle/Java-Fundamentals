@@ -76,3 +76,97 @@ Michaels-MacBook-Air-2:Terminal_testing Michael$
 March is the 3rd Month of the year.  It has 31 days.  There are two months that begin with the letter M.  Can you name the other one?
 Michaels-MacBook-Air-2:Terminal_testing Michael$ 
 
+
+Output January 2020
+
+Michaels-MacBook-Air-2:online-java-fundamentals Michael$ pwd
+/Users/Michael/documents/codingnomads3/labs/cloned_labs/online-java-fundamentals
+Michaels-MacBook-Air-2:online-java-fundamentals Michael$ cd ..
+Michaels-MacBook-Air-2:cloned_labs Michael$ pwd
+/Users/Michael/documents/codingnomads3/labs/cloned_labs
+Michaels-MacBook-Air-2:cloned_labs Michael$ cd ..
+Michaels-MacBook-Air-2:labs Michael$ pwd
+/Users/Michael/documents/codingnomads3/labs
+Michaels-MacBook-Air-2:labs Michael$ pwd
+/Users/Michael/documents/codingnomads3/labs
+Michaels-MacBook-Air-2:labs Michael$ cd ..
+Michaels-MacBook-Air-2:codingnomads3 Michael$ pwd
+/Users/Michael/documents/codingnomads3
+Michaels-MacBook-Air-2:codingnomads3 Michael$ mkdir Terminal_Testing
+Michaels-MacBook-Air-2:codingnomads3 Michael$ ls
+Terminal_Testing			labs
+WorkingDirectory			~$eful References – Java Course.docx
+Michaels-MacBook-Air-2:codingnomads3 Michael$ vim Jan2020
+Michaels-MacBook-Air-2:codingnomads3 Michael$ cat Jan2020
+2020 is year of the metal rat.
+Michaels-MacBook-Air-2:codingnomads3 Michael$ vi Jan2020
+Michaels-MacBook-Air-2:codingnomads3 Michael$ vim Feb2020
+Michaels-MacBook-Air-2:codingnomads3 Michael$ ls
+Feb2020					WorkingDirectory
+Jan2020					labs
+Terminal_Testing			~$eful References – Java Course.docx
+Michaels-MacBook-Air-2:codingnomads3 Michael$ pwd
+/Users/Michael/documents/codingnomads3
+Michaels-MacBook-Air-2:codingnomads3 Michael$ mv /Users/Michael/documents/codingnomads3/Jan2020 /Users/Michael/documents/codingnomads3/Terminal_Testing
+Michaels-MacBook-Air-2:codingnomads3 Michael$ ls
+Feb2020					labs
+Terminal_Testing			~$eful References – Java Course.docx
+WorkingDirectory
+Michaels-MacBook-Air-2:codingnomads3 Michael$ mv /Users/Michael/documents/codingnomads3/Feb2020 /Users/Michael/documents/codingnomads3/Terminal_Testing
+Michaels-MacBook-Air-2:codingnomads3 Michael$ ls
+Terminal_Testing			labs
+WorkingDirectory			~$eful References – Java Course.docx
+Michaels-MacBook-Air-2:codingnomads3 Michael$ ls -al
+total 24
+drwxr-xr-x   7 Michael  staff   224 27 Jan 08:18 .
+drwx------@ 43 Michael  staff  1376 16 Jan 21:43 ..
+-rw-r--r--@  1 Michael  staff  6148 17 Jan 12:14 .DS_Store
+drwxr-xr-x   4 Michael  staff   128 27 Jan 08:18 Terminal_Testing
+drwxr-xr-x@  4 Michael  staff   128 16 Jan 21:14 WorkingDirectory
+drwxr-xr-x   5 Michael  staff   160 13 Jan 11:16 labs
+-rw-r--r--@  1 Michael  staff   162  5 Apr  2019 ~$eful References – Java Course.docx
+Michaels-MacBook-Air-2:codingnomads3 Michael$ cd Terminal_Testing/
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ ls
+Feb2020	Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ mkdir Inside-terminal_testing
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ ls
+Feb2020			Inside-terminal_testing	Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ mv /Users/Michael/documents/codingnomads3/Terminal_Testing/Feb2020 /Users/Michael/documents/codingnomads3/Terminal_testing/Inside_Terminal_Testing
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ ls
+Inside-terminal_testing	Inside_Terminal_Testing	Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ pwd
+/Users/Michael/documents/codingnomads3/Terminal_Testing
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ ls
+Inside-terminal_testing	Inside_Terminal_Testing	Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ rm Inside_Terminal_Testing
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ ls
+Inside-terminal_testing	Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ rm Inside_terminal_testing
+rm: Inside_terminal_testing: No such file or directory
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ rm Inside_terminal_testing
+rm: Inside_terminal_testing: No such file or directory
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ ls
+Inside-terminal_testing	Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ rm -2 Inside-terminal_testing
+rm: illegal option -- 2
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ ls
+Inside-terminal_testing	Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ rm Inside-terminal_testing/
+rm: Inside-terminal_testing/: is a directory
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ rm -r Inside-terminal_testing/
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ ls
+Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ vim Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ cat Jan2020
+2020 is year of the metal rat.
+
+2019 was year of the pig.
+
+2021 will be year of the Ox.
+
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ vim Jan2020
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ grep pig Jan2020
+2019 was year of the pig.
+Michaels-MacBook-Air-2:Terminal_Testing Michael$ 
