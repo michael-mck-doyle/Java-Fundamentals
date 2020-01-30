@@ -23,7 +23,7 @@ public class Exercise_04 {
         // calculate surface area of cylinder using formula: π x radius x 2 x (radius + height)
         double surface_area = pi * radius * 2 * (radius + height);
 
-        System.out.println("The volume of the cylinder is " + volume);
+        System.out.println("The volume of the cylinder is: " + volume);
         System.out.println("The surface area of the cylinder is " + surface_area);
 
 
