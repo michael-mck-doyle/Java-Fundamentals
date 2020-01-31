@@ -34,6 +34,10 @@ class RelationalOperators {
             System.out.println("'a' equal to 'b'");
         }
 
+        if ( a != b) {
+            System.out.println(" a and b are different");
+        }
+
 
 
         // write your code below

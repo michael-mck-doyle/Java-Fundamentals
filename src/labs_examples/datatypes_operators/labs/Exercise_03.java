@@ -22,7 +22,7 @@ class ArithmeticOperators {
         long d = 7876543654321l / 2;
         System.out.println("The value of 'd' is " +d);
 
-        int e = 19 % 6;
+        int e = 19 % 4;
         System.out.println("The value of 'e' is " +e);
 
         // write your code below

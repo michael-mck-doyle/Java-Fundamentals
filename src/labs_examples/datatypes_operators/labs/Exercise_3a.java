@@ -12,10 +12,6 @@ public class Exercise_3a {
 
         public static void main(String[] args) {
 
-            char g = 'a';
-            char h = 'b';
-
-
 
             char a = 5 + 7;
             System.out.println("The value of 'a' is " +a);
@@ -34,11 +30,11 @@ public class Exercise_3a {
 
             // write your code below
 
-            int f =  (g + h);
+            int f =  ('g' + 'h');
             System.out.println(f);
 
-            char k = a;
-            System.out.println("The value of i is" + k);
+            char k = 'a';
+            System.out.println("The value of i is " + k);
         }
 
     }
