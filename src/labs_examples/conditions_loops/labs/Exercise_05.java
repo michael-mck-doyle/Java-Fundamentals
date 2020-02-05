@@ -16,4 +16,13 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_05 {
+
+    public static void main(String[] args) {
+
+
+        for (int a = 0; a <= 5; a++) {
+
+            System.out.println(" a = " + a);
+        }
+    }
 }
