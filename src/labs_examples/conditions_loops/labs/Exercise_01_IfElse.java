@@ -47,7 +47,27 @@ public class Exercise_01_IfElse {
             System.out.println("Penalty miss! Better luck next time...");
 
         }
+
+        //third example
+        //create scanner
+        Scanner scanner3 = new Scanner(System.in);
+        //prompt user - select your anniversary date in February
+        System.out.println("Can you remember your wedding anniversary? Enter the date:");
+        // assign input to variable as int
+        int number3 = scanner.nextInt();
+
+        //write completed code here
+        if (number3 == 26) {
+            System.out.println("Congratulations you have remembered your Wedding anniversary");
+        } else if (number3 < 26) {
+            System.out.println("wrong! Buy luckily you still have time to buy a present,");
+        } else if (number3 > 26) {
+            System.out.println("Looks like you've forgotten your Wedding anniversary.");
+            System.out.println("You have some serious sucking up to do!");
+        } else {
+            System.out.println("Maybe you're not married yet.");
         }
+    }
 
 
     }
