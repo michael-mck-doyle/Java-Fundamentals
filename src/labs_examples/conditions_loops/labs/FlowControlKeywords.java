@@ -35,6 +35,26 @@ public class FlowControlKeywords {
         int c = someMethod(18);
         System.out.println(c);
 
+        System.out.println();
+
+        // please demonstrate the use of the "continue" keyword below within a for loop
+        for (int x = 0; x < 12; x++) {
+            if(x == 5 || x == 6) {
+                System.out.println("We are skipping 5 & 6");
+                continue;
+            } System.out.println("x = " + x);
+        }
+
+        // please demonstrate the use of the "break" keyword below in a do-while loop
+        int y = 1;
+        do {
+            System.out.println("y = " + y);
+            if (y == 8){
+                break;
+            } y++;
+        } while (y < 12);
+
+
     }
     // Return keyword
 
