@@ -22,21 +22,21 @@ public class Exercise_00_ForEach_Practice {
         }
 
         // please declare an array or arraylist below
-        ArrayList<String> list = new ArrayList();
+        ArrayList<String> cars = new ArrayList();
         //ArrayList<String> cars = new ArrayList();
         //ArrayList<String> cars = new ArrayList<String>();
         //ArrayList<String> list = new ArrayList();
         // please populate that array or arraylist
-        list.add("Mazda");
-        list.add("Hello");
-        list.add("Honda");
-        list.add("Toyota");
-        list.add("BMW");
-        list.add("Range Rover");
+        cars.add("Mazda");
+        cars.add("Hello");
+        cars.add("Honda");
+        cars.add("Toyota");
+        cars.add("BMW");
+        cars.add("Range Rover");
 
         // please use a For Each Loop to print each element
 
-        for (String i : list) {
+        for (String i : cars) {
             System.out.println(i);
             // in the array or arraylist you declared and populated above
         }
