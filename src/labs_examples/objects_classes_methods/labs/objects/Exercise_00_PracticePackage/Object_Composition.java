@@ -44,7 +44,7 @@ package labs_examples.objects_classes_methods.labs.objects.Exercise_00_PracticeP
             System.out.println(myCar.toString());
 
             myCar.toString();
-            
+
 
         }
     }
