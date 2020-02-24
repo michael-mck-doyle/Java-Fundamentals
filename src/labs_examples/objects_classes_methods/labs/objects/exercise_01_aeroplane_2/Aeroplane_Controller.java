@@ -10,7 +10,7 @@ public class Aeroplane_Controller {
         Catering meals = new Catering(true);
         Seating seat = new Seating(true, 10);
 
-    Aeroplane newAeroplane = new Aeroplane(1000, 800, manufacturer, engines, meals, seat);
+    Aeroplane newAeroplane = new Aeroplane(1500, 800, manufacturer, engines, meals, seat);
 
         System.out.println("The aeroplane manufactured by " + manufacturer.getManufacturer() + " has " + seat.getSeat() + " seats");
 
